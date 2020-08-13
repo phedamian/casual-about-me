@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 188px auto 0 auto;
+  font-family: 'Press Start 2P', cursive;
+  color: #00FF00;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: 'Righteous', cursive;
+  font-weight: normal;
+  color: #32CD32;
+}
+
+h3 {
+  font-family: 'Righteous', cursive;
+  color: #1E90FF;
+}
+
+hr {
+  border-top: 5px solid;
+  border-bottom: 0;
+  border-style: dotted;
+  width: 3%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.top-container {
+  background-color: #1b262c;
+  padding-top: 1px;
+  position: relative;
+}
+
+.middle-container {
+  background-color: #ecfbfc;
+}
+
+.bottom-container {
+  background-color: #1b262c;
+  padding: 20px 0;
+}
+
+.profile {
+  width: 30%;
+  margin: 0 auto;
+  padding: 100px 0;
+  line-height: 2;
+}
+
+.skills {
+  margin-top: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  padding-top: 30px;
+  padding-bottom: 80px;
+  width: 40%;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 10%;
+  right: 15%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 45%;
+  left: 15%;
+}
+
+.mountain-img {
+  margin-bottom: -4px;
+}
+
+.guitar-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.basketball-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  background-color: #1E90FF;
+  margin-top: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  font-family: 'Righteous', cursive;
+}
+
+.btn:hover {
+  background-color: #32CD32;
+}
+
+.footer-link {
+  display: inline-block;
+  color: #1E90FF;
+  margin: 30px 20px 30px 20px;
+  text-decoration: none;
+  font-family: 'Righteous', cursive;
+}
+
+.footer-link:hover {
+  color: #00FF00;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.8rem;
+}
